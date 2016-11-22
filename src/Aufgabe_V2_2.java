@@ -18,6 +18,7 @@ public class Aufgabe_V2_2 {
     }
 
     private static double bestimmungMin(double ersteZahl, double zweiteZahl, double dritteZahl) {
-        return ersteZahl <= zweiteZahl ? ersteZahl <= dritteZahl ? ersteZahl : dritteZahl : zweiteZahl <= dritteZahl ? zweiteZahl : dritteZahl;
+        return Math.min(ersteZahl, zweiteZahl) <= dritteZahl ? Math.min(ersteZahl, zweiteZahl) : dritteZahl;
+        //return ersteZahl <= zweiteZahl ? ersteZahl <= dritteZahl ? ersteZahl : dritteZahl : zweiteZahl <= dritteZahl ? zweiteZahl : dritteZahl;
     }
 }
