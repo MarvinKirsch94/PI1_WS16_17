@@ -29,16 +29,16 @@ public class Aufgabe_V2_1 {
             }
             System.out.println("Der Wert von k ist: " + k);
             System.out.println("Soll die Funktion erneut aufgerufen werden ?(y/n)");
-            String antwort = "a";
+            String antwort = " ";
             while(!(antwort.equalsIgnoreCase("y") || antwort.equalsIgnoreCase("n"))) {
-                System.out.println("Geben sie y für Ja ein oder n für nein: ");
+                System.out.println("Geben sie y für Ja oder n für nein ein: ");
                 antwort = in.readLine();
                 System.out.println(antwort);
             }
-            if(antwort.equals("y")) {
+            if(antwort.equalsIgnoreCase("y")) {
                 System.out.println("Wird neu gestarted!");
                 sollLaufen = true;
-            } else if(antwort.equals("n")) {
+            } else if(antwort.equalsIgnoreCase("n")) {
                 System.out.println("Wuensche einen schoenen Tag :)");
                 sollLaufen = false;
             }
