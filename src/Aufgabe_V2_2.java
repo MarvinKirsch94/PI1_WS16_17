@@ -18,7 +18,6 @@ public class Aufgabe_V2_2 {
     }
 
     private static double bestimmungMin(double ersteZahl, double zweiteZahl, double dritteZahl) {
-        double collector = ersteZahl;
-        return collector <= zweiteZahl ? zweiteZahl : collector <= dritteZahl ? dritteZahl : ersteZahl;
+        return ersteZahl <= zweiteZahl ? ersteZahl <= dritteZahl ? ersteZahl : dritteZahl : zweiteZahl <= dritteZahl ? zweiteZahl : dritteZahl;
     }
 }
