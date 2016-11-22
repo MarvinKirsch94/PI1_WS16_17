@@ -5,7 +5,7 @@ import java.io.*;
  * Matrikelnr.: 11118687
  */
 public class Aufgabe_V2_1 {
-
+    //Der Anspruchsvolle Teil wurde direkt mit in die Aufgabe übernommen fuer das struktogramm siehe "/res/A2_1_struktogramm"
     public static void main(String args[]) throws IOException {
 
         BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
