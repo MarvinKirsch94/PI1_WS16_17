@@ -17,7 +17,7 @@ public class Aufgabe_V2_2 {
         System.out.println("Die kleinste Zahl ist: " + bestimmungMin(eZ,zZ,dZ));
     }
 
-    public static double bestimmungMin(double ersteZahl, double zweiteZahl, double dritteZahl) {
+    private static double bestimmungMin(double ersteZahl, double zweiteZahl, double dritteZahl) {
         double collector = ersteZahl;
         return collector <= zweiteZahl ? zweiteZahl : collector <= dritteZahl ? dritteZahl : ersteZahl;
     }
