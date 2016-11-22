@@ -18,13 +18,7 @@ public class Aufgabe_V2_2 {
     }
 
     public static double bestimmungMin(double ersteZahl, double zweiteZahl, double dritteZahl) {
-        double container[] = new double[]{zweiteZahl,dritteZahl};
         double collector = ersteZahl;
-        for(int i = 0;i < 1;i++) {
-            if(collector <= container[i]) {
-                collector = container[i];
-            }
-        }
-        return collector;
+        return collector <= zweiteZahl ? zweiteZahl : collector <= dritteZahl ? dritteZahl : ersteZahl;
     }
 }
