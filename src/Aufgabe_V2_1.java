@@ -18,9 +18,10 @@ public class Aufgabe_V2_1 {
             } while (n < 1);
             int teiler;
             do {
-                System.out.println("Geben sie einen Wert(nicht 0) für den Teiler von n (n/teiler) ein: ");
+                //0 wegen divide bei 0 error und 1 wegen nicht endender schleife
+                System.out.println("Geben sie einen Wert(nicht 0 & nicht 1) für den Teiler von n (n/teiler) ein: ");
                 teiler = Integer.parseInt(in.readLine());
-            } while (teiler == 0);
+            } while (teiler == 0 || teiler == 1);
             int k = 0;
             while (n > 1) {
                 n /= teiler;
