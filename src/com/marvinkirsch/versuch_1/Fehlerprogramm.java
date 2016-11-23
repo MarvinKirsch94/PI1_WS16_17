@@ -1,3 +1,5 @@
+package com.marvinkirsch.versuch_1;
+
 import java.io.*;
 
 public class Fehlerprogramm {

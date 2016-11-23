@@ -1,7 +1,10 @@
+package com.marvinkirsch.versuch_1;
+
 import java.io.*;
 
 /**
- * Created by nivri on 02.11.2016.
+ * Created by Marvin Kirsch on 02.11.2016.
+ * Matrikelnr.: 11118687
  */
 public class Aufgabe_L1_1 {
     public static void main(String args[]) throws IOException {

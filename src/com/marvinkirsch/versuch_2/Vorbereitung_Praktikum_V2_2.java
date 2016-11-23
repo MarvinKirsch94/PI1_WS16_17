@@ -1,10 +1,12 @@
+package com.marvinkirsch.versuch_2;
+
 import java.io.*;
 
 /**
  * Created by Marvin Kirsch on 08.11.2016.
  * Matrikelnr.: 11118687
  */
-public class Aufgabe_V2_2 {
+public class Vorbereitung_Praktikum_V2_2 {
 
     public static void main(String args[]) throws IOException {
         BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
