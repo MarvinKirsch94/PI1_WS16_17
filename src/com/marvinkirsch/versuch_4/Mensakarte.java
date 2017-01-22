@@ -10,6 +10,10 @@ public class Mensakarte {
     private String besitzer;
     private boolean gesperrt;
 
+    public Mensakarte(){
+        this(3.0, "horst", true);
+    }
+
     public Mensakarte(double guthaben, String besitzer, boolean gesperrt) {
         this.guthaben = guthaben;
         this.besitzer = besitzer;
@@ -49,5 +53,9 @@ public class Mensakarte {
     public boolean toggleSperre() {
         this.gesperrt = !this.gesperrt;
         return this.gesperrt;
+    }
+
+    public boolean eseenKaffee (double epreis , int anzahl) {
+        return this.guthaben >= (epreis * anzahl + 1.2 * anzahl);
     }
 }
